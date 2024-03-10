@@ -1,0 +1,46 @@
+.StudentInformation {
+  display: none;
+}
+
+.Student img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  box-shadow: 5px 5px 15px rgb(12, 7, 40);
+}
+
+.StudentName {           
+  font-weight: bold;
+  color: white;
+}
+
+.StudentCode {
+  font-style: italic;
+  color: white;
+}
+
+.StudentCode:before {
+  content: " - ";
+}
+
+.Student {
+  text-align: center;
+  width: 150px;
+  margin: 0px 20px;
+  float: left;
+  cursor: pointer;
+}
+
+.Student:hover .StudentInformation {
+  display: block;
+}
+body {
+  background-color: #102b4e;}
+.Boy {
+  width: 960px;
+  margin: 0% auto;
+}
+.Girl {
+  width: 960px;
+  margin: 0% auto;
+}
