@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Ex02</title>
+    </head>
+    <body>
+        <input type="text" id="txta">
+        <input type="text" id="txtb">
+        <button onclick="tongab()">
+            Tính tổng
+        </button>
+    </body>
+    <script>
+        function tongab() {
+            var txta = document.getElementById('txta').value;
+            var txtb = document.getElementById('txtb').value;
+            if(txta == null || txta == '' || isNaN(txta)) {
+                alert('Number A is formatted incorect');
+                return;
+            }
+            if(txtb == null || txta == '' || isNaN(txtb)) {
+                alert('Number B is formatted in2corect');
+                return;
+            }
+            alert(parseInt(txta) + parseInt(txtb));
+        }
+    </script>
+</html>
