@@ -1,0 +1,27 @@
+.information {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 60px;
+    margin-top: 100px;
+}
+.text {
+    float: left;
+}
+.dv {
+    text-align: center;
+    color: grey;
+    text-decoration: underline;
+}
+.feed {
+    width: 450px;
+    padding: 20px;
+}
+.info {
+    width: 200px;
+    padding: 20px;
+}
+.press {
+    width: 100%;
+    float: right;
+    padding: 10px;
+}
